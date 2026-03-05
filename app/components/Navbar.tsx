@@ -2,7 +2,8 @@ import Image from "next/image";
 import Link from "next/link"
 import PrintforgeLogo from "@/public/printforge-logo.svg"
 import PrintforgeLogoIcon from "@/public/printforge-logo-icon.svg"
-export default function Navbar() {
+import { JSX } from "react";
+export default function Navbar(): JSX.Element {
     return (
         <header className="w-full bg-white">
             <nav className="flex justify-between px-6 py-4">

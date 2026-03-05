@@ -1,7 +1,8 @@
 import Image from "next/image"
 import HeroImageSquare from "@/public/hero-image-square.png"
+import { JSX } from "react";
 
-export default function AboutPage() {
+export default function AboutPage(): JSX.Element {
     return (
         <main>
             <section className="container max-w-4xl px-4 py-8 mx-auto">

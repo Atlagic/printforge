@@ -4,8 +4,9 @@ import Pill from "./Pill"
 import { ModelCardProps } from "@/app/types"
 import placeholderImg from "@/public/placeholder.png"
 import Image from "next/image";
+import { JSX } from "react";
 
-export default function ModelCard({ model }: ModelCardProps) {
+export default function ModelCard({ model }: ModelCardProps): JSX.Element {
     return (
         <Link
             href={`/3d-models/${model.id}`}

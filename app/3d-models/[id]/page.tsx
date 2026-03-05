@@ -1,6 +1,6 @@
 import { FaRegHeart } from "react-icons/fa6"
 import Pill from "@/app/components/Pill"
-import type { ModelDetailPageProps } from "@/app/types"
+import type { Model, ModelDetailPageProps} from "@/app/types"
 import { getModelById } from "@/app/lib/models"
 import placeholderImg from "@/public/placeholder.png"
 import Image from "next/image";
@@ -8,7 +8,7 @@ import {JSX} from "react";
 
 export default async function ModelDetailPage({ params }: ModelDetailPageProps): Promise<JSX.Element> {
     const { id } = await params
-    const model = await getModelById(id)
+    const model: Model = await getModelById(id)
 
     return (
         <div className="container max-w-6xl px-4 py-8 mx-auto">
