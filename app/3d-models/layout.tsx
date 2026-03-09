@@ -6,9 +6,8 @@ export default function ModelsLayout({ children }: { children: ReactNode }): JSX
             <CategoriesNavbar />
             {/* Main Content Area */}
             <main className="flex-1 p-4 md:ml-64">
-                {children}
+                { children }
             </main>
         </div>
     )
-    // navbar se prikazuje i na single model strani
 }

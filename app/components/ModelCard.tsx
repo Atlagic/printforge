@@ -16,8 +16,9 @@ export default function ModelCard({ model }: ModelCardProps): JSX.Element {
             <div className="overflow-hidden transition-shadow bg-white rounded-lg shadow-md hover:shadow-lg" role="article">
                 <div className="relative aspect-square">
                     <Image
-                        src={placeholderImg}
+                        src={model.image} //placeholderImg
                         alt={model.name}
+                        fill
                         className="absolute inset-0 object-cover w-full h-full"
                     />
                 </div>

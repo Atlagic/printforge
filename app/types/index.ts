@@ -63,7 +63,7 @@ export type GetModelsParams = {
 }
 
 export type ModelsPageProps = {
-    searchParams: {
+    searchParams: Promise<{
         search?: string
-    }
+    }>
 }
