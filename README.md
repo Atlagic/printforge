@@ -9,3 +9,5 @@ Features:
 - Search models by name and description
 - Loading skeleton UI
 - Responsive layout with sticky category sidebar
+  
+<img width="1035" height="670" alt="printforge" src="https://github.com/user-attachments/assets/7c28695f-fe8c-4de8-a6fd-49ca8f0fc959" />
